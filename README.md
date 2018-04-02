@@ -4,7 +4,8 @@ Simple class for debouncing button inputs in Arduino.
 
 
 ### Setup
-```python
+
+```c++
 // include the buttons.h in your main file
 #include "Buttons.h"
 
