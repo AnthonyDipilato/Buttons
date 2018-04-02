@@ -5,10 +5,10 @@ Simple class for debouncing button inputs in Arduino. I use the internal pull up
 ### Setup
 
 ```c++
-// include the buttons.h in your main file
+// Include the buttons.h in your main file
 #include "Buttons.h"
 
-//Declare you buttons and the pin
+// Declare your buttons and the pin
 Buttons example_button(10);
 Buttons example_button_two(9);
 
@@ -16,7 +16,7 @@ Buttons example_button_two(9);
 example_button.check();
 example_button_two.check();
 
-// check the value of your buttons
+// Check the value of your buttons
 // example_button.value
 // example_button_two.value
 
