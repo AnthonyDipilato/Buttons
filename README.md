@@ -1,7 +1,6 @@
 # Buttons for Arduino
 
-Simple class for debouncing button inputs in Arduino.
-
+Simple class for debouncing button inputs in Arduino. I use the internal pull up resistors because I am lazy. If you are not like me,  you can change the pinmode in the Buttons.cpp file.
 
 ### Setup
 
